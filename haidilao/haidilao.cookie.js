@@ -6,16 +6,16 @@
  * hostname = superapp-public.kiwa-tech.com
  *
  * # Surge
- * Rewrite: 海底捞 = type=http-request,pattern=^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin,script-path=https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.cookie.js
- * Tasks: 海底捞 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.js,wake-system=true
+ * Rewrite: 海底捞 = type=http-request,pattern=^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin,script-path=https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.cookie.js
+ * Tasks: 海底捞 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js,wake-system=true
  *
  * # QuanX
- * ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin url script-request-header https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.cookie.js
- * 10 0 * * * https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.js, tag=海底捞
+ * ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin url script-request-header https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.cookie.js
+ * 10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞
  *
  * # Loon
- * http-request ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin script-path=https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.cookie.js
- * cron "10 0 * * *" script-path=https://raw.githubusercontent.com/maxueli/script/master/haidilao/haidilao.js
+ * http-request ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin script-path=https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.cookie.js
+ * cron "10 0 * * *" script-path=https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js
  *
  */
 
