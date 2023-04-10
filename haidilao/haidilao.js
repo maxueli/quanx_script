@@ -11,6 +11,7 @@ $.KEY_sign = 'maxueli_sign_haidilao'
 function signwx() {
   return new Promise((resolve) => {
     const opts = JSON.parse($.getdata($.KEY_sign))
+    opts.body['signinSource'] = 'MiniApp'
     $.get(opts, (err, resp, data) => {
       try {
         $.wx = JSON.parse(data)
