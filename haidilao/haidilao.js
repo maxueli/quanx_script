@@ -12,7 +12,7 @@ function signwx() {
   return new Promise((resolve) => {
     const opts = JSON.parse($.getdata($.KEY_sign))
     opts.body['signinSource'] = 'MiniApp'
-    $.get(opts, (err, resp, data) => {
+    $.post(opts, (err, resp, data) => {
       try {
         $.wx = JSON.parse(data)
       } catch (e) {
