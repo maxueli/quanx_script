@@ -11,7 +11,7 @@
  *
  * # QuanX
  * ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin url script-request-header https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.cookie.js
- * 10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞
+ * 10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png
  *
  * # Loon
  * http-request ^https:\/\/superapp-public.kiwa-tech.com\/activity\/wxapp\/signin\/signin script-path=https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.cookie.js
