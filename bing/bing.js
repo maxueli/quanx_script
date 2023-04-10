@@ -126,7 +126,7 @@ if(!lk.isExecComm) {
 }
 
 function getCookie() {
-    if (lk.isGetCookie(/\/rewards\.bing\.com/)) {
+    if (!lk.getVal(bingPointCookieKey) && $request.headers.Host=='rewards.bing.com') {
         lk.log(`开始获取cookie`)
         try {
             const bingHeader = JSON.stringify($request.headers.cookie)
