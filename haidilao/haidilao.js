@@ -25,8 +25,7 @@ function signwx() {
 function showmsg() {
   return new Promise((resolve) => {
     $.subt = '签到: '
-    if ($.wx.errorCode === 0) $.subt += '成功'
-    else if ($.wx.errorCode === 35702) $.subt += '重复'
+    if ($.wx.success === true) $.subt += '成功'
     else $.subt += '失败'
     $.msg($.name, $.subt, $.desc)
     resolve()
