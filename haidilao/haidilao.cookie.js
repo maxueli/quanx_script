@@ -26,6 +26,7 @@ $.KEY_sign = 'maxueli_sign_haidilao'
   const session = {}
   session.url = $request.url
   session.headers = $request.headers
+  session.body = $request.body
   if ($.setdata(JSON.stringify(session), $.KEY_sign)) {
     $.subt = `获取会话: 成功!`
   } else {
