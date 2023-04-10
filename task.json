@@ -1,5 +1,5 @@
 {
-	"name": "maxueli  ",
+	"name": "maxueli",
 	"description": "自用",
 	"task": [
 		"10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true"
